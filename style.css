@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+}
+
+header {
+    background-color: #1db954;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #000;
+}
+
+.hero {
+    background-image: url('https://via.placeholder.com/1920x600');
+    background-size: cover;
+    background-position: center;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+.music-cards {
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.music-cards h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.card {
+    background-color: #1c1c1c;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    width: 22%;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.card h3 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.subscribe {
+    padding: 2rem;
+    text-align: center;
+    background-color: #282828;
+}
+
+.subscribe h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.subscribe form {
+    display: inline-block;
+}
+
+.subscribe input[type="email"] {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+}
+
+.subscribe button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    background-color: #1db954;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #282828;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    color: #b3b3b3;
+}
